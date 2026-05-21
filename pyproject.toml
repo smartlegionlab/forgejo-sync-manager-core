@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forgejo-sync-manager-core"
+version = "1.0.0"
+description = "Universal core library for Forgejo repository synchronization."
+authors = [
+    {name = "Alexander Suvorov", email = "smartlegionlab@gmail.com"}
+]
+license = "BSD-3-Clause"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+dependencies = [
+
+]
+
+[project.urls]
+Homepage = "https://github.com/smartlegionlab/forgejo-sync-manager-core"
+
+[tool.setuptools.packages.find]
+where = ["."]
