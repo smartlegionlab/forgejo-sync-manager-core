@@ -1,4 +1,4 @@
-# forgejo-sync-manager-core <sup>v1.0.0</sup>
+# forgejo-sync-manager-core <sup>v1.0.1</sup>
 
 Universal core library for Forgejo repository synchronization.
 
@@ -9,6 +9,13 @@ Universal core library for Forgejo repository synchronization.
 [![GitHub release](https://img.shields.io/github/v/release/smartlegionlab/forgejo-sync-manager-core)](https://github.com/smartlegionlab/forgejo-sync-manager-core/)
 [![GitHub stars](https://img.shields.io/github/stars/smartlegionlab/forgejo-sync-manager-core?style=social)](https://github.com/smartlegionlab/forgejo-sync-manager-core/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/forgejo-sync-manager-core?style=social)](https://github.com/smartlegionlab/forgejo-sync-manager-core/network/members)
+
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/forgejo-sync-manager-core?label=pypi%20downloads)](https://pypi.org/project/forgejo-sync-manager-core/)
+[![PyPI](https://img.shields.io/pypi/v/forgejo-sync-manager-core)](https://pypi.org/project/forgejo-sync-manager-core)
+[![PyPI - Format](https://img.shields.io/pypi/format/forgejo-sync-manager-core)](https://pypi.org/project/forgejo-sync-manager-core)
+[![PyPI Downloads](https://static.pepy.tech/badge/forgejo-sync-manager-core)](https://pepy.tech/projects/forgejo-sync-manager-core)
+[![PyPI Downloads](https://static.pepy.tech/badge/forgejo-sync-manager-core/month)](https://pepy.tech/projects/forgejo-sync-manager-core)
+[![PyPI Downloads](https://static.pepy.tech/badge/forgejo-sync-manager-core/week)](https://pepy.tech/projects/forgejo-sync-manager-core)
 
 ---
 
