@@ -1,6 +1,6 @@
 # Copyright (©) 2026, Alexander Suvorov. All rights reserved.
 # License: BSD 3-Clause
-from core.base_sync_manager import BaseSyncManager
+from forgejo_sync_manager_core.core.base_sync_manager import BaseSyncManager
 
 
 class GUISyncManager(BaseSyncManager):

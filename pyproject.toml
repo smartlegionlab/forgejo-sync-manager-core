@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "forgejo-sync-manager-core"
-version = "1.0.1"
+version = "1.0.2"
 description = "Universal core library for Forgejo repository synchronization."
 authors = [
     {name = "Alexander Suvorov", email = "smartlegionlab@gmail.com"}

@@ -1,7 +1,7 @@
 # Copyright (©) 2026, Alexander Suvorov. All rights reserved.
 # License: BSD 3-Clause
 import requests
-from core.auth import ForgejoAuth
+from forgejo_sync_manager_core.core.auth import ForgejoAuth
 
 
 class ForgejoAPIClient:

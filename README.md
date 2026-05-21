@@ -1,4 +1,4 @@
-# forgejo-sync-manager-core <sup>v1.0.1</sup>
+# forgejo-sync-manager-core <sup>v1.0.2</sup>
 
 Universal core library for Forgejo repository synchronization.
 
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 ### Basic Authentication
 
 ```python
-from core.auth import ForgejoAuth
+from forgejo_sync_manager_core.core.auth import ForgejoAuth
 
 auth = ForgejoAuth(
     token="your_token",
@@ -104,7 +104,7 @@ auth = ForgejoAuth(
 ### API Client
 
 ```python
-from core.api_client import ForgejoAPIClient
+from forgejo_sync_manager_core.core.api_client import ForgejoAPIClient
 
 client = ForgejoAPIClient(auth)
 user_info = client.get_user_info()
@@ -114,7 +114,7 @@ repositories = client.get_user_repos()
 ### Sync Manager for GUI Applications
 
 ```python
-from core.sync_manager_gui import GUISyncManager
+from forgejo_sync_manager_core.core.sync_manager_gui import GUISyncManager
 
 sync_manager = GUISyncManager(auth)
 sync_manager.ensure_directories()
@@ -127,7 +127,7 @@ for repo in repositories:
 ### Sync Manager for CLI Applications
 
 ```python
-from core.sync_manager_cli import CLISyncManager
+from forgejo_sync_manager_core.core.sync_manager_cli import CLISyncManager
 
 sync_manager = CLISyncManager(auth)
 results = sync_manager.sync_all_repositories(repositories)
@@ -137,7 +137,7 @@ results = sync_manager.sync_all_repositories(repositories)
 ### Check Repository Updates (CLI only)
 
 ```python
-from core.sync_manager_cli import CLISyncManager
+from forgejo_sync_manager_core.core.sync_manager_cli import CLISyncManager
 
 sync_manager = CLISyncManager(auth)
 needs_update = sync_manager.check_updates(repositories)

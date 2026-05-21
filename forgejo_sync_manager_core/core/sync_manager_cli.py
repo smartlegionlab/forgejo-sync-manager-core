@@ -3,7 +3,7 @@
 import shutil
 import subprocess
 from datetime import datetime
-from core.base_sync_manager import BaseSyncManager
+from forgejo_sync_manager_core.core.base_sync_manager import BaseSyncManager
 
 
 class CLISyncManager(BaseSyncManager):

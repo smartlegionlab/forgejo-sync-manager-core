@@ -4,7 +4,7 @@ import subprocess
 import shutil
 from pathlib import Path
 from abc import ABC, abstractmethod
-from core.auth import ForgejoAuth
+from forgejo_sync_manager_core.core.auth import ForgejoAuth
 
 
 class BaseSyncManager(ABC):
